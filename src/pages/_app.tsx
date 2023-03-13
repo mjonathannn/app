@@ -1,7 +1,7 @@
-import Head from "next/head";
-import type { AppProps } from "next/app";
+import Head from "next/head"
+import type { AppProps } from "next/app"
 
-import "../styles/pages/_app.css";
+import "../styles/pages/_app.css"
 
 const App = ({ Component, pageProps }: AppProps): JSX.Element => {
   return (
@@ -15,7 +15,7 @@ const App = ({ Component, pageProps }: AppProps): JSX.Element => {
 
       <Component {...pageProps} />
     </>
-  );
-};
+  )
+}
 
-export default App;
+export default App

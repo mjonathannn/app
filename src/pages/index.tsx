@@ -1,6 +1,6 @@
-import Head from "next/head";
+import Head from "next/head"
 
-import styles from "../styles/pages/index.module.css";
+import styles from "../styles/pages/index.module.css"
 
 const Home = (): JSX.Element => {
   return (
@@ -13,7 +13,7 @@ const Home = (): JSX.Element => {
         <span>Hello World</span>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home
